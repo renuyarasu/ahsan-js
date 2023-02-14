@@ -32,5 +32,19 @@ const divide = (firstNumber, secondNumber) => {
     return result;
 };
 
-const output = subtract(number1, number2);
-document.write(output)
+const operator = '-';
+
+if (operator == '-') {
+    const output = subtract(number1, number2);
+    document.write(output)
+} else if (operator == '+') {
+    const output = subtract(number1, number2);
+    document.write(output)
+}
+
+else {
+    alert('Not subtract!!!')
+}
+
+
+
