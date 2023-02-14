@@ -1,0 +1,1 @@
+.map(word => word.split().join(''))
