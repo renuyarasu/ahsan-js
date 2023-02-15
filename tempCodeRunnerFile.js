@@ -1,1 +1,1 @@
-.map(word => word.split().join(''))
+document.write(output);
